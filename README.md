@@ -1,49 +1,32 @@
-# FitTracker
+# FitTracker – Fitness & Workout Tracking App
 
-Cross-platform fitness tracking app built with React Native. Track workouts, monitor progress, and achieve your fitness goals.
+A cross-platform fitness app for logging workouts, tracking progress, and achieving personal goals.
+
+🔗 **Live Demo:** [sercod.com/demos/fittracker](https://sercod.com/demos/fittracker/)
 
 ## Features
 
-- Custom workout plans with exercise library
-- Real-time workout timer with rest intervals
-- Progress tracking with visual charts
-- Achievement system and streaks
-- Push notifications for workout reminders
-- Offline-first with local storage
+- 🏋️ **Workout Logger** – Log exercises, sets, reps, and weights
+- 📈 **Progress Charts** – Visualize strength gains and body metrics over time
+- 🎯 **Goal Setting** – Set weekly targets and track streaks
+- 🗓️ **Training Plans** – Pre-built and custom workout programs
+- 📱 **Mobile-First** – Built with Flutter for iOS and Android
+- 🔄 **Sync** – Cloud sync across devices via REST API
 
 ## Tech Stack
 
-- React Native 0.73 + TypeScript
-- React Navigation 6
-- Firebase (Auth + Firestore)
-- React Native Chart Kit
-- AsyncStorage
-- Push Notifications
-
-## Screenshots
-
-[Coming soon]
+- **Mobile:** Flutter (Dart)
+- **Backend:** Node.js + Express + PostgreSQL
+- **Charts:** fl_chart
+- **Auth:** JWT + OAuth (Google)
 
 ## Getting Started
 
 ```bash
-npm install
-npx react-native run-ios
-npx react-native run-android
-```
-
-## Project Structure
-
-```
-src/
-├── navigation/     # Tab + Stack navigator setup
-├── screens/        # App screens
-├── components/     # Reusable UI components
-├── hooks/          # Custom React hooks
-├── services/       # Storage, API, notifications
-├── types/          # TypeScript interfaces
-├── utils/          # Formatters, constants
-└── theme/          # Colors, typography
+git clone https://github.com/sercancosar7/fittracker.git
+cd fittracker
+flutter pub get
+flutter run
 ```
 
 ## License
