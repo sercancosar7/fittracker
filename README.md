@@ -1,34 +1,37 @@
 # FitTracker – Fitness & Workout Tracking App
 
-A cross-platform fitness app for logging workouts, tracking progress, and achieving personal goals.
+Cross-platform fitness tracking app with workout plans, progress analytics, and social features.
 
 🔗 **Live Demo:** [sercod.com/demos/fittracker](https://sercod.com/demos/fittracker/)
 
 ## Features
 
 - 🏋️ **Workout Logger** – Log exercises, sets, reps, and weights
-- 📈 **Progress Charts** – Visualize strength gains and body metrics over time
+- 📈 **Progress Analytics** – Visualize strength gains and body metrics with Chart.js
 - 🎯 **Goal Setting** – Set weekly targets and track streaks
 - 🗓️ **Training Plans** – Pre-built and custom workout programs
-- 📱 **Mobile-First** – Built with Flutter for iOS and Android
-- 🔄 **Sync** – Cloud sync across devices via REST API
+- 👥 **Social Features** – Follow friends, share workouts, leaderboards
+- 🔄 **Cloud Sync** – Real-time sync across devices via Firebase
 
 ## Tech Stack
 
-- **Mobile:** Flutter (Dart)
-- **Backend:** Node.js + Express + PostgreSQL
-- **Charts:** fl_chart
-- **Auth:** JWT + OAuth (Google)
+- **Mobile:** React Native + TypeScript
+- **Backend & Auth:** Firebase (Firestore, Auth, Cloud Functions)
+- **Charts:** Chart.js
+- **State:** Redux Toolkit
 
 ## Getting Started
 
 ```bash
 git clone https://github.com/sercancosar7/fittracker.git
 cd fittracker
-flutter pub get
-flutter run
+npm install
+# Add your Firebase config to src/config/firebase.ts
+npx react-native run-android
+# or
+npx react-native run-ios
 ```
 
 ## License
 
-MIT
+MIT – see [LICENSE](./LICENSE)
